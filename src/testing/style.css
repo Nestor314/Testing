@@ -1,0 +1,61 @@
+.root {
+    -fx-background-image: url('background.jpeg');
+    -fx-background-size: cover;
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+}
+
+.login-pane {
+    -fx-background-color: rgba(255, 255, 255, 0.8); /* Колір фону з прозорістю */
+    -fx-background-radius: 10px;
+    -fx-padding: 20px;
+    -fx-spacing: 10px;
+    -fx-alignment: center;
+}
+
+.login-title {
+    -fx-font-size: 30px; /* Збільшуємо розмір заголовка */
+    -fx-font-weight: bold;
+    -fx-text-fill: #4285F4; /* Колір тексту, схожий на Google */
+    -fx-padding: 0 0 30 0; /* Зовнішні відступи */
+}
+
+.login-text-field {
+    -fx-pref-width: 300px; /* Збільшуємо ширину текстових полів */
+    -fx-pref-height: 40px;
+    -fx-padding: 10px; /* Збільшуємо внутрішній відступ */
+    -fx-font-size: 16px;
+    -fx-background-radius: 5px;
+    -fx-border-color: #ccc;
+    -fx-border-width: 1px;
+}
+
+.login-button {
+    -fx-pref-width: 150px; /* Збільшуємо розміри кнопки "Увійти" */
+    -fx-pref-height: 50px;
+    -fx-padding: 10px; /* Збільшуємо внутрішній відступ */
+    -fx-font-size: 16px;
+    -fx-background-color: #4285F4;
+    -fx-text-fill: white;
+    -fx-background-radius: 8px;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.3), 5, 0, 0, 0);
+}
+
+.login-button:hover {
+    -fx-background-color: #3367D6; /* Змінюємо колір при наведенні */
+}
+
+.register-button {
+    -fx-pref-width: 150px; /* Збільшуємо розміри кнопки "Зареєструватися" */
+    -fx-pref-height: 50px;
+    -fx-padding: 10px; /* Збільшуємо внутрішній відступ */
+    -fx-font-size: 16px;
+    -fx-background-color: #34A853; /* Колір кнопки "Зареєструватися" */
+    -fx-text-fill: white;
+    -fx-background-radius: 8px;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.3), 5, 0, 0, 0);
+}
+
+.register-button:hover {
+    -fx-background-color: #4285F4; /* Змінюємо колір при наведенні */
+}
